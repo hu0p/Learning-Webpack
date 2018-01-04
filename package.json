@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "name": "webpack-setup-tutorial",
+  "version": "0.0.1",
+  "description": "Logan learning how to properly use webpack",
+  "main": "index.js",
+  "author": "Logan Houp",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress"
+  },
+  "dependencies": {
+    "raw-loader": "^0.5.1"
+  }
+}
