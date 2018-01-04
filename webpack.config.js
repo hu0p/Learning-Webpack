@@ -15,8 +15,18 @@ module.exports = {
         exclude: [/node_modules/]
       },
       {
-        test: /\.html/,
-        loader: "raw-loader"
+        test: /\.(sass|css|scss)$/,
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader"
+          },
+          {
+            loader: "sass-loader"
+          }
+        ]
       }
     ]
   },

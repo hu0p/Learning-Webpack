@@ -1,4 +1,7 @@
-console.log("This is a simple statement! 🚀");
+import css from "normalize.css/normalize.css";
+import "../style/app.scss";
+
+console.log("🚀");
 
 class testClass {
   constructor() {

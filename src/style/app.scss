@@ -1,0 +1,19 @@
+$primary-color: #2e878a;
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: $primary-color;
+}
+
+h1 {
+  transform: translateY(-75px);
+  color: white;
+}
