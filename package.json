@@ -22,7 +22,6 @@
     "start": "webpack-dev-server --history-api-fallback --inline --progress"
   },
   "dependencies": {
-    "normalize.css": "^7.0.0",
-    "raw-loader": "^0.5.1"
+    "normalize.css": "^7.0.0"
   }
 }
